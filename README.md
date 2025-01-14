@@ -35,5 +35,4 @@ This project focuses on securely managing, optimizing, and analyzing structured 
 This dataset from Kaggle provides statistics (in CSV format) on daily trending YouTube videos over several months. It includes data for up to 200 popular videos published each day across various regions, with each region's data stored in a separate file. The dataset contains information such as the video title, channel title, publication time, tags, views, likes, dislikes, description, and comment count. Additionally, a category_id field, which varies by region, is included in the corresponding JSON file for each location.
 https://www.kaggle.com/datasets/datasnaek/youtube-new
 
-## Architecture Diagram
-<img src="architecture.jpeg">
+
