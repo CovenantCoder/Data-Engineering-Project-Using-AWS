@@ -4,17 +4,20 @@ AWS-Powered YouTube Data Pipeline for Scalable Analysis and Reporting
 ## Overview
 This project focuses on securely managing, optimizing, and analyzing structured and semi-structured YouTube video data, with a focus on video categories and trending metrics.
 
-## Project Goals:
+## Project Goals
+1. Data Ingestion — First, we built a robust mechanism to ingest data from multiple sources, ensuring that daily trending YouTube video data was consistently collected across different regions.
 
-1. Data Ingestion — Develop a system to gather data from various sources.
-2. ETL System — Transform raw data into a structured format suitable for analysis.
-3. Data Lake — Store data from multiple sources in a centralized repository for easy access.
-4. Scalability — Ensure the system can scale to accommodate the growing volume of data.
-5. Cloud — Leverage cloud infrastructure, specifically AWS, to process large datasets beyond local computing capabilities.
-6. Reporting — Create an interactive dashboard to answer key business questions based on the data analysis.
+2. ETL System — After data ingestion, we implemented an ETL system that transformed the raw data into a structured format, cleaning and organizing it for further analysis and reporting.
+
+3. Data Lake — Following the transformation, we established a centralized data repository in Amazon S3 to securely store the ingested and processed data, making it easily accessible for future analysis.
+
+4. Scalability — To accommodate the growing volume of data, we ensured the system was scalable by utilizing AWS services, allowing it to efficiently handle increased data loads without compromising performance.
+
+5. Cloud — Given the large scale of the data, we leveraged AWS cloud infrastructure to process and analyze the data, taking full advantage of its high-performance capabilities and eliminating the limitations of local computing.
+
+6. Reporting — Finally, we created interactive dashboards using Amazon QuickSight, enabling stakeholders to visualize and analyze key metrics from the YouTube data, providing insights into video performance, user engagement, and trends.
 
 ## Services We Have Used:
-
 - Amazon S3: We have used Amazon S3 for object storage, providing scalability, data availability, security, and performance to manage large datasets efficiently.
 
 - AWS IAM: We have used AWS Identity and Access Management (IAM) to securely manage and control access to AWS services and resources, ensuring proper permissions and security.
